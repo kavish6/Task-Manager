@@ -1,5 +1,5 @@
 # Task-Manager
-Task manager assignment using mongoose,express,node and mongodb Atlas.
+Task manager API using mongoose,express,node and mongodb Atlas.
 ## My Work:
 - I have used mongodb atlas and added the mongdb connection url in the environment variable.
 - Created Two models : One for TaskList and another one for tasks.
@@ -32,11 +32,4 @@ page:Number(to get page no),
 - The above function outputs  accodingly to the queyparameters and the no of documents for a single page is set as 10,It also outputs count of tasks.
 - populated the TaskList name while getting the tasklist in the listTask function for the route of 'api/listTask'.
 - Tested all queries and routes using Postman also checked for data validation.
-
-### My Understanding and Implementation of Assigned Validation:
-- I have understood the period format as MonthInitial and Year , Implemented a validator which checks strings for this format.
-- I have implement the validation for dueDate as it should be either a month,quarter or year(specified periodType) further from the period mentioned month (assumed the period to start from 01 date of that month)
-- I have also checked the periodType to be in ['monthly','yearly','quarterly']
-
-###### I Apologize if I have made any mistake in the understanding of the assignment. 
 
